@@ -1,0 +1,17 @@
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Profesor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let teacher of teacherList">
+        <td (click)="teacher.expanded = ! teacher.expanded">{{teacher.name}}</td>
+        <td *ngIf="teacher.expanded">
+          <app-subjects [idTeacher]="teacher.id"></app-subjects>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

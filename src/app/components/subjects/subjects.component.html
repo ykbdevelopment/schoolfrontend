@@ -1,0 +1,20 @@
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Asignaturas</th>
+        <th scope="col">Curso</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let subject of subjectList">
+        <td (click)="subject.expanded = ! subject.expanded">{{subject.name}}</td>
+        <td>{{subject.grade}} {{subject.classroom}}</td>
+
+        <td *ngIf="subject.expanded">
+          <app-students [idSubject]="subject.id"></app-students>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
