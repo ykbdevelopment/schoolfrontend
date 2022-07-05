@@ -1,27 +1,52 @@
-# Prueba
+# Frontend Colegio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
+## Comenzando 🚀
 
-## Development server
+_Clona el siguiente repositorio para obtener una copia del proyecto en funcionamiento en tu máquina local._
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```
+git clone https://github.com/ykbdevelopment/schoolfrontend.git
+```
 
-## Code scaffolding
+### Pre-requisitos 📋
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Necesitarás contar con lo siguiente:_
 
-## Build
+```
+NodeJS 16.13.2 o posterior.
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Instalación 🔧
 
-## Running unit tests
+_Ingresa en el directorio del proyecto clonado:_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+cd schoolfrontend
+```
 
-## Running end-to-end tests
+_Instala las dependencias:_
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+npm install
+```
 
-## Further help
+_Inicia el servidor para ver la aplicación:_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+npm start
+```
+
+_Finalmente, podrá visualizar la aplicación desde la URL:_
+
+```
+http://localhost:4200
+```
+
+## Construido con 🛠️
+
+* Angular 14.0.0
+* Bootstrap 5.1.3
+
+## Autor ✒️
+
+* **Yeraldin Karina Benavides** - [ykbdevelopment](https://github.com/ykbdevelopment)
