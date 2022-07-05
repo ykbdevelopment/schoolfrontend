@@ -13,7 +13,7 @@ git clone https://github.com/ykbdevelopment/schoolfrontend.git
 _Necesitarás contar con lo siguiente:_
 
 ```
-NodeJS 16.13.2 o posterior.
+NodeJS 16.14.0 o posterior.
 ```
 
 ### Instalación 🔧
